@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -94,27 +94,25 @@
                         </div>
                         <h4>Free Minecraft Plugins</h4>
                         <p>Use the free Minecraft plugins to improve your community with useful functions.</p>
-                        <h5>Downloads</h5>
-                        <ul>
-                            <li>SetLobby: <script>getDownloadsSignLog('https://www.spigotmc.org/resources/authors/zafiro93.69599/');</script></li>
-                            <li>SignLog:</li>
-                            <li>PremiumWhitelist: </li>
-                            <li>SpyMode: </li>
-                        </ul>
+                        <br>
+                        <p><b>SetLobby:</b> +23,000 downloads</p>
+                        <p><b>SignLog:</b> +300 downloads</p>
+                        <p><b>PremiumWhitelist:</b> +150 downloads</p>
+                        <p><b>SpyMode:</b> +450 downloads</p>
+                        <br>
                         <a href="https://www.spigotmc.org/resources/authors/zafiro93.69599/" target="_blank" class="primary-btn">See all</a>
                     </div>
                 </div>
-                <!--<div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="services__item">
                         <div class="services__item__icon">
                             <img src="img/icons/si-1.png" alt="">
                         </div>
-                        <h4>Motion graphics</h4>
-                        <p>Whether you’re halfway through the editing process, or you haven’t even started, our post
-                            production services can put the finishing touches.</p>
+                        <h4>Tools</h4>
+                        <p>We are currently developing it.</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
+                <!--<div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="services__item">
                         <div class="services__item__icon">
                             <img src="img/icons/si-2.png" alt="">
@@ -218,34 +216,7 @@
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
 
-    <script>
-    function getDownloadsSignLog(url) {
-
-        fetch(url)
-            .then(response => response.text())
-            .then(html => {
-                // Crea un elemento div temporal para contener el HTML de la página remota
-                var tempDiv = document.createElement('div');
-                tempDiv.innerHTML = html;
-
-                // Selecciona el div por su selector CSS
-                var divRemoto = tempDiv.querySelector('.pairsJustified');
-
-                // Busca dentro de este elemento los elementos <dd>
-                var ddElements = divRemoto.querySelectorAll('dd');
-
-                // Si se encontró el div, obtén su contenido
-                if (divRemoto) {
-                    var valorDiv = ddElements[1].innerText; // o divRemoto.innerHTML si necesitas el HTML dentro del div
-
-                    return valorDiv;
-                }
-            })
-            .catch(error => console.error('Error al obtener la página remota:', error));
-
-        
-    }
-</script>
+    
 
 </body>
 
